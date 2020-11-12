@@ -30,6 +30,6 @@ object IWServerController: TIWServerController
   AllowMultipleSessionsPerUser = False
   JavaScriptOptions.jQueryVersion = '1.12.4'
   OnNewSession = IWServerControllerBaseNewSession
-  Height = 310
-  Width = 342
+  Height = 336
+  Width = 512
 end
