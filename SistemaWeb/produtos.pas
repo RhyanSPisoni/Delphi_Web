@@ -3,10 +3,13 @@ unit produtos;
 interface
 
 uses
-  Classes, SysUtils, IWAppForm, IWApplication, IWColor, IWTypes;
+  Classes, SysUtils, IWAppForm, IWApplication, IWColor, IWTypes, IWVCLComponent,
+  IWBaseLayoutComponent, IWBaseContainerLayout, IWContainerLayout,
+  IWTemplateProcessorHTML;
 
 type
-  TIWForm1 = class(TIWAppForm)
+  TFrmProdutos = class(TIWAppForm)
+    IWTemplateProcessorHTML1: TIWTemplateProcessorHTML;
   public
   end;
 
@@ -16,6 +19,6 @@ implementation
 
 
 initialization
-  TIWForm1.SetAsMainForm;
+  TFrmProdutos.SetAsMainForm;
 
 end.
