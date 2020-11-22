@@ -82,10 +82,6 @@ object FrmProdutos: TFrmProdutos
     Top = 240
   end
   object FDConnection1: TFDConnection
-    Params.Strings = (
-      'Database=esquema'
-      'User_Name=root'
-      'DriverID=MySQL')
     Left = 272
     Top = 312
   end

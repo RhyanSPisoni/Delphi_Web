@@ -79,9 +79,13 @@ object FrmProdutos: TFrmProdutos
   object ds: TDataSource
     DataSet = FDQuery1
     Left = 344
-    Top = 240
+    Top = 360
   end
   object FDConnection1: TFDConnection
+    Params.Strings = (
+      'Database=esquema'
+      'User_Name=root'
+      'DriverID=MySQL')
     Left = 272
     Top = 312
   end
@@ -89,7 +93,7 @@ object FrmProdutos: TFrmProdutos
     Connection = FDConnection1
     SQL.Strings = (
       'select * from produtos')
-    Left = 400
-    Top = 304
+    Left = 424
+    Top = 344
   end
 end
